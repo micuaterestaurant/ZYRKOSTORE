@@ -1,0 +1,27 @@
+import { Header } from "@/components/header"
+import { Hero } from "@/components/hero"
+import { FeaturedDrop } from "@/components/featured-drop"
+import { TrustSection } from "@/components/trust-section"
+import { BrandStory } from "@/components/brand-story"
+import { CustomerReviews } from "@/components/customer-reviews"
+import { InstagramGallery } from "@/components/instagram-gallery"
+import { FAQ } from "@/components/faq"
+import { CTASection } from "@/components/cta-section"
+import { Footer } from "@/components/footer"
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen">
+      <Header />
+      <Hero />
+      <FeaturedDrop />
+      <TrustSection />
+      <BrandStory />
+      <CustomerReviews />
+      <InstagramGallery />
+      <FAQ />
+      <CTASection />
+      <Footer />
+    </main>
+  )
+}
